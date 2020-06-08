@@ -149,6 +149,7 @@ void MainWindow::showGrade() {
 
 
     ui->grade->setText(temp);
+    ui->grade->repaint();
 }
 
 void MainWindow::showDetail() {
